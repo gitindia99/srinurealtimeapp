@@ -15,4 +15,6 @@ public interface EmployeeService {
 
 	List<Employee> findAllEmployees();
 
+	Employee findByNameDetails(String name);
+
 }

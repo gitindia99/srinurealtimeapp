@@ -9,4 +9,6 @@ import com.cts.org.entity.Employee;
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 
+	Employee findByName(String name);
+
 }

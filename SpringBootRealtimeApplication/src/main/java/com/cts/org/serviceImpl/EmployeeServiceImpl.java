@@ -28,5 +28,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return findAll;
 	}
 
+	@Override
+	public Employee findByNameDetails(String name) {
+		// TODO Auto-generated method stub
+		Employee emp=employeeRepository.findByName(name);
+		return emp;
+	}
+
 	
 }
