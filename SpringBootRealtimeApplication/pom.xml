@@ -56,6 +56,7 @@
 		</dependencies>
 	</dependencyManagement>
 	<build>
+		<finalName>srping-realtime</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
